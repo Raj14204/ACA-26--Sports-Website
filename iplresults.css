@@ -1,0 +1,54 @@
+ul {
+ 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    background-color: rgb(82, 182, 16);
+  }
+  
+  ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  
+  .header {
+    padding: 20px;
+    height: 100vh;
+    background: url("https://images.indianexpress.com/2020/09/ipl-schedule.jpg") no-repeat  center;
+    background-size: cover;
+    position: relative;
+  }
+  .header h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .header h2{
+    color:#fff;
+    text-align:center;
+
+  }
+  .header .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+
+  
